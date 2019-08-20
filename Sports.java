@@ -7,5 +7,8 @@ public class Sports implements IEvent {
 		System.out.println("Sports Booked");
 		
 	}
+	public void cancel(int id, int unit) {
+		
+	}
 
 }

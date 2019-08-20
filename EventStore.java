@@ -28,5 +28,12 @@ public class EventStore implements IEventStore{
 		event.book();
 	}
 	
+	public void cancel(int id, int unit, String type) {
+		IEvent event = typeMap.get(type);
+		event.cancel(id, unit);
+	}
+	
+	
+	
 
 }

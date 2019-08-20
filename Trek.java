@@ -7,5 +7,9 @@ public class Trek implements IEvent {
 		System.out.println("Trek Booked");
 		
 	}
+	
+	public void cancel(int id, int unit) {
+		
+	}
 
 }
